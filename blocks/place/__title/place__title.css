@@ -1,3 +1,32 @@
 .palce__title {
   margin: 0;
+  width: calc(100% - 20px);
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 1.06em;
+}
+
+@media screen and (max-width: 1279px) {
+  .palce__title {
+    width: calc(100% - 16px);
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .palce__title {
+    width: calc(100% - 14px);
+    font-size: 42px;
+    font-weight: 900;
+    line-height: 1.1em;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .palce__title {
+    min-width: 288px;
+    margin: 0 auto;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 1.09em;
+  }
 }
