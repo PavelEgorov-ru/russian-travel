@@ -1,0 +1,6 @@
+.place__column {
+  margin: 0;
+  min-width: 460px;
+  display: flex;
+  flex-direction: column;
+}

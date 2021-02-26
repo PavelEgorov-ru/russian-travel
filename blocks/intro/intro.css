@@ -1,10 +1,20 @@
 .intro {
   max-width: 690px;
+  position: relative;
+  right: 147px;
   border: 1px solid white;
+}
+
+@media screen and (max-width: 1279px) {
+  .intro {
+  position: relative;
+  right: 119px;
+  }
 }
 
 @media screen and (max-width: 1023px) {
  .intro {
+   position: static;
    max-width: 720px;
  }
 }
