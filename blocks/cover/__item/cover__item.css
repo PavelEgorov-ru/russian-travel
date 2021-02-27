@@ -1,19 +1,13 @@
 .cover__item {
-  background-image: url('./../../../images/__background.jpg');
-  min-width: 1184px;
-  min-height: 740px;
   color: #FFFFFF;
   text-decoration: none;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  box-sizing: border-box;
-  background-size: cover;
-  position: relative;
-  z-index: 1;
+  
 }
 
-.cover__item:before {
+/*.cover__item:before {
   content: '';
   background: #2A2C2F;
   opacity: 0.3;
@@ -24,9 +18,9 @@
   bottom: 0;
   z-index: -1;
   transition: .4s;
-}
+}*/
 
-.cover__item:hover:before {
+/*.cover__item:hover:before {
   opacity: 0.8;
 }
 
@@ -50,3 +44,4 @@
     max-height: 200px;
   }
 }
+*/
