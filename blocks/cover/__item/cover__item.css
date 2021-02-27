@@ -1,13 +1,19 @@
 .cover__item {
+  background-image: url('./../../../images/__background.jpg');
+  min-height: 740px;
   color: #FFFFFF;
   text-decoration: none;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  box-sizing: border-box;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
   
 }
 
-/*.cover__item:before {
+.cover__item:before {
   content: '';
   background: #2A2C2F;
   opacity: 0.3;
@@ -18,30 +24,26 @@
   bottom: 0;
   z-index: -1;
   transition: .4s;
-}*/
+}
 
-/*.cover__item:hover:before {
+.cover__item:hover:before {
   opacity: 0.8;
 }
 
 @media screen and (max-width: 1279px){
   .cover__item {
-    max-width: 1024px;
-    max-height: 640px;
+    min-height: 640px;
   }
 }
 
 @media screen and (max-width: 1023px){
   .cover__item {
-    max-width: 768px;
-    max-height: 440px;
+    min-height: 440px;
   }
 }
 
 @media screen and (max-width: 767px){
   .cover__item {
-    max-width: 320px;
-    max-height: 200px;
+    min-height: 200px;
   }
 }
-*/
