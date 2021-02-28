@@ -1,5 +1,5 @@
 .place__text {
-  width: clac(100% - 20px);
+  width: calc(100% - 20px);
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -13,13 +13,14 @@
 
 @media screen and (max-width: 1023px) {
   .place__text {
-    width: clac(100% - 14px);
+    width: calc(100% - 14px);
   }
 }
 
 @media screen and (max-width: 767px) {
   .place__text {
     max-width: 288;
+    max-height: 468px;
     margin: 0 auto;
   }
 }

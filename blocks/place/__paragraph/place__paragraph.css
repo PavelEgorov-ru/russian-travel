@@ -1,18 +1,17 @@
 .place__paragraph {
   margin: 0;
-  margin-bottom: 26px;
+  margin-top: 26px;
   font-size: 18px;
   font-weight: normal;
   line-height: 1.63em;
 }
 
-.place__paragraph:nth-child(2n) {
+.place__paragraph:nth-child(2n-1) {
   margin: 0;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1023px) {
   .place__paragraph {
-    font-size: 16;
-    max-width: 288px;
+    font-size: 16px;
   }
 }
