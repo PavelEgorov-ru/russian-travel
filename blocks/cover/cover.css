@@ -1,11 +1,11 @@
 .cover {
-  margin-left: 48px;
-  margin-right: 48px;
+  min-height: 740px;
 }
 
 @media screen and (max-width: 1279px) {
   .cover {
-    margin: 0;
+
   }
 }
+
 
