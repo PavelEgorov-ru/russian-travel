@@ -1,8 +1,9 @@
 .page {
-  align-content: center;
+  background-color: #2A2C2F;
+/*  align-content: center;
   background-color: #2A2C2F;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
 }
